@@ -1,0 +1,610 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+
+nav{
+    position: static;
+    top: 0;
+    background-color: #10C98F;
+   
+    display: block;
+    color: #fffdfd;
+}
+
+h1{
+    display: inline-block;
+position: relative;
+top: 10px;
+left: 60px;
+
+}
+
+
+nav ul{
+    display: inline-block; 
+      width: 80% ;
+     text-align: end;
+     text-transform: capitalize;
+
+}
+
+nav li {
+    display: inline-block;
+    margin: 20px;  text-decoration: none;
+
+
+ }
+
+ .parent{
+    position: relative;
+   
+ }
+
+ nav .parent:hover .list{
+    display: block;
+}
+
+
+ .list  {
+    position: absolute;
+    display: block;
+    left: 0;
+    top: 40px;
+     background-color: rgb(246, 246, 247);
+     width: 150px;
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     text-align: left;
+    display:none;
+    color: #000;
+    
+    }
+    
+nav ul li a {
+    
+    text-decoration:none;
+    color: white;
+
+
+ }
+nav button{
+    padding: 12px 34px;
+    border: transparent;
+    background-color: #10C98F;
+    color: #fafafa;
+   
+}
+
+.grand{
+display: inline-block;
+width: 100%;
+
+}
+
+
+
+
+
+
+.father{
+    
+/* background-color: #4CBDB4; */
+position: relative;
+width: 30%;
+display:inline-block;
+margin: 20px 20px 20px 20px ;
+
+
+
+
+}
+
+.second{
+    position: relative;
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 55px;
+    margin-right: 20px;
+    color: floralwhite;
+    margin: 0px 20px 10px 30px;
+
+
+}
+.third{
+font-size: 30px;
+margin: 30px 40px;
+color: #fffdfd;
+}
+.father button{
+
+    padding: 25px 60px;
+    border: transparent;
+    background-color: #75e9c4;
+    color: #fafafa;
+    margin: 10px 30px 30px 30px ;
+
+
+}
+
+.father2{
+    box-sizing: border-box;
+    width: 70%;
+    height: 520px;
+    max-width: max-content;
+    margin: 20px 20px 20px 520px;
+   
+background-color: rgb(255, 255, 255);
+
+}
+
+
+
+
+
+.second2{
+    position: relative;
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    margin-right: 15px;
+    color: #0F4332;
+    margin: 30px 40px;
+    text-align: center;
+
+
+}
+.third2{
+    font-size: 15px;
+    margin: 30px 40px;
+    text-align: center;
+
+    color: #000;
+}
+.forth{
+
+    margin: 30px 40px;
+}
+.forth button{
+    display: block;
+    padding: 20px 100px;
+    border: transparent;
+    background-color: #10C98F;
+    color: #fafafa;
+    margin: 20px 30px;
+     
+  }
+/* 
+button :hover{
+  transition: all .5s ease-in-out 1s;
+    background-color: blueviolet;
+} */
+
+
+.grand2{
+
+box-sizing: border-box;
+padding: 0 0 100px 0;
+background-color: #FFFFFF;
+
+}
+
+ .frist3{
+text-align: center;
+display: block;
+position: relative;
+margin-top: 50px;
+
+
+ }
+ .frist3 h2 {
+    color: #0F4332;
+    font-size: 40px ;
+ }
+ .frist3 p {
+    font-size: 20px;
+    box-sizing: border-box;
+    
+    height: 100px;
+
+ }
+.second3{
+width: 400px;
+margin:120px 10px 42px 68px;
+text-align: left;
+box-sizing: border-box;
+
+}
+.third3{
+    width: 400px;
+    margin: 120px 10px 42px 68px ;
+    text-align: left;
+box-sizing: border-box;
+
+}
+.forth3{
+
+width: 400px;
+margin:120px 10px 42px 68px ;
+text-align: left;
+box-sizing: border-box;
+
+}
+ .grand2 span p {
+    color: #428760;
+    font-size:large;
+ }
+ .grand2 span h2 {
+    color: #0F4332;
+    font-size: 30px;
+ }
+ .grand3{
+    background-color: #E4F1ED;
+
+ }
+ .frist4{
+box-sizing: border-box;
+padding:10px 0px 0px 300px ;
+width: 900px;
+height: 600px ;
+text-align: left;
+position: absolute;
+
+margin: 10px 10px 10px 10px;
+ }
+ .grand3 span img{
+
+    box-sizing: border-box;
+    width: auto;
+    height: auto ;
+    position: relative;
+ }
+ .second4{
+    font-size: 40px;
+    color: #0F4332;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ }
+ .third4{
+  font-size: larger;
+
+ }
+.grand3 div {
+    box-sizing: border-box;
+    width: 250px;
+    height: 230px;
+    background-color: #10C98F;
+    position: absolute;
+    border: 2px solid #10C98F;
+    margin:-130px 2px 20px -484px;
+
+}
+.grand3 div h2{
+text-align: center;
+font-size: 80px;
+color: #fafafa;
+padding: 20px 20px 0px 20px ;
+margin:  20px 20px 0px 20px;
+font-family: Chivo, sans-serif;
+}
+
+.grand3 div p{
+text-align: center;
+font-size: 20px;
+color: #fafafa;
+
+}
+
+ .forth4{
+font-size: 25px;
+
+ }
+
+
+ .grand3 span button {
+ font-size: 17px;
+  padding:20px 70px ;
+  font-family: Chivo, sans-serif;
+  font-weight: bolder;
+  border: 2px solid #10C98F ;
+  color: cadetblue;
+ }
+
+ .grand4{
+
+    box-sizing: border-box;
+    padding: 0 0 100px 0;
+    background-color: #F4FCFA;
+    
+    }
+    
+     .frist5{
+    text-align: center;
+    display: block;
+    position: relative;
+    margin-top: 50px;
+    
+    
+     }
+     .frist5 h2 {
+        color: #0F4332;
+        font-size: 40px ;
+     }
+     .frist5 p {
+        font-size: 20px;
+        box-sizing: border-box;
+        
+        height: 100px;
+    
+     }
+    .second5{
+    width: 280px;
+    margin:120px 10px 42px 68px;
+    text-align: center;
+    box-sizing: border-box;
+    f
+    
+    }
+    .third5{
+        width: 280px;
+        margin: 120px 10px 42px 68px ;
+        text-align: center;
+    box-sizing: border-box;
+    
+    }
+    .forth5{
+    
+    width: 280px;
+    margin:120px 10px 42px 68px ;
+   text-align: center;
+    box-sizing: border-box;
+    
+    }
+
+    .fifth5{
+
+        width: 280px;
+        margin:120px 10px 42px 68px ;
+       text-align: center;
+        box-sizing: border-box;
+    }
+
+     .grand4 span p {
+        color: #0F4332;
+        font-size:20px;
+
+     }
+     .grand4 span h2 {
+        color: #0F4332;
+        font-size: 50px;
+     }
+     .grand5{
+        background-color: #E4F1ED;
+        width:auto ;
+        height: 700px;
+    
+     }
+     .frist6{
+    box-sizing: border-box;
+    padding:90px 0px 0px 300px ;
+    width: 900px;
+    height: 600px ;
+    text-align: left;
+    position: absolute;
+    right: 50%;
+    
+    margin: 10px 10px 10px 10px;
+     }
+     .grand5 span img{
+    
+        box-sizing: border-box;
+        width: 450px;
+        height: 450px ;
+        position: relative;
+        left: 60%;
+        margin: 80px 0px 0px 0px ;
+     }
+     .second6 {
+        font-size: 30px;
+        color: #0F4332;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     }
+     .third6 {
+      font-size:large;
+    
+     }
+    /* .grand5 div {
+        box-sizing: border-box;
+        width: 250px;
+        height: 230px;
+        background-color: #10C98F;
+        position: absolute;
+        border: 2px solid #10C98F;
+        margin:-130px 2px 20px -484px;
+    
+    }
+    .grand5 div h2{
+    text-align: center;
+    font-size: 80px;
+    color: #fafafa;
+    padding: 20px 20px 0px 20px ;
+    margin:  20px 20px 0px 20px;
+    font-family: Chivo, sans-serif;
+    }
+    
+    .grand5 div p{
+    text-align: center;
+    font-size: 20px;
+    color: #fafafa; */
+    
+    /* } */
+    
+     .forth6{
+    font-size: 25px;
+    
+     }
+    
+    
+     .grand5 span button {
+     font-size: 17px;
+      padding:20px 70px ;
+      font-family: Chivo, sans-serif;
+      font-weight: bolder;
+      border: 2px solid #10C98F ;
+      color: cadetblue;
+     }
+
+.grand6{
+height: 720px;
+}
+.grand6 div h2 {
+    text-align: center;
+    font-size: 50px;
+    color: #0F4332;
+    margin-top: 30px;
+}
+
+.frist7{
+box-sizing: border-box;
+width: 450px;
+height: auto;
+text-align: left;
+position: relative;
+margin: 20px 20px 20px 50px ;
+display: inline-block;
+color: #0F4332;
+}
+.second7{
+    box-sizing: border-box;
+    width: 450px;
+    height: auto;
+    text-align: left;
+    position: relative;
+    margin: 20px 20px 20px 20px ;
+    display: inline-block;
+    color:#0F4332 ;
+}
+.third7{
+    box-sizing: border-box;
+    width: 450px;
+    height: auto;
+    text-align: left;
+    position: relative;
+    margin: 20px 20px 20px 20px ;
+    display: inline-block;
+    color: #0F4332;
+    
+}
+.grand6 span h2{
+    font-size: 30px;
+
+}
+.grand6 span p{
+    font-size: larger;
+
+}
+.grand7{
+height: 350px;
+ background-color: #d9e6d5;
+
+}
+.frist8{
+display: inline-block;
+box-sizing: border-box;
+width: 350px;
+margin: 20px 20px 20px 20px ;
+position: relative;
+height: auto;
+text-align: left;
+padding:20px 20px 20px 20px  ;
+}
+.second8{
+    display: inline-block;
+    box-sizing: border-box;
+    width: 350px;
+    margin: 0px 20px 20px 0px ;
+    position: relative;
+    height: auto;
+    text-align: left;
+    padding:0px 20px 20px 0px  ;
+}
+.third8{
+
+    display: inline-block;
+    box-sizing: border-box;
+    width: 350px;
+    margin: 0px 20px 20px 0px ;
+    position: relative;
+    height: auto; 
+    text-align: left;
+    padding:0px 20px 20px 0px  ;
+}
+.forth8{
+    display: inline-block;
+    box-sizing: border-box;
+    width: 350px;
+    margin: 0px 20px 20px 0 ;
+    position: relative;
+    height: auto;
+    text-align: left;
+    padding:0px 20px 20px 0px  ;
+
+}
+
+.grand7 span h1 {
+    font-size: 30px;
+    margin: 0px 20px 20px 0px ;
+}
+.grand7 span p {
+    font-size: 20px;
+    margin: 0px 20px 20px 0px ;
+}
+.forth8 h3{
+
+    position: relative;
+    box-sizing: border-box;
+    display: inline-block;
+    margin: 20px 20px 20px 0px ;
+    width: 30px;
+}
+.forth8 img{
+    background-color: #10C98F;
+    width: 60px ;
+    height: 50px;
+    position: absolute;
+}
+.forth8 input{
+
+    box-sizing: border-box;
+    width: 180px ;
+    height: 50px;
+    border: 2px solid #10C98F;
+    padding:20px 20px 20px 20px ;
+    position: relative;
+}
+.grand7 div p {
+    text-align: center;
+    font-size: large;
+    font-family: monospace;
+    color: dimgrey;
+    animation: SUN 5S ;
+    animation-iteration-count: infinite;
+}
+@keyframes SUN  {
+
+    0%{
+        color: #000;
+    }
+    30%{
+        color: brown;
+    }
+    60%{
+        color: blue;
+
+    }
+
+    100%{
+        color: darkorange;
+    }
+}
